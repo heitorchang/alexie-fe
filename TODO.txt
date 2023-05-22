@@ -1,4 +1,4 @@
-Adding a transaction should have 7 fields:
+* Adding a transaction should have 7 fields:
 
 Date: Date picker
 Description: Text
@@ -37,3 +37,16 @@ Income (-)
 
 Equity (-)
   Opening Balances
+
+
+* State management
+
+Accounts should have a "total" property that is updated when a transaction is added.
+
+Transactions and account totals should be global (so components that report these values don't need to duplicate data)
+
+Save transactions in a JSON after each added or deleted transaction.
+
+* Deleting transactions
+
+Issue a reverse transaction
