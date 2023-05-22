@@ -1,0 +1,39 @@
+Adding a transaction should have 7 fields:
+
+Date: Date picker
+Description: Text
+Amount: Number (accept decimal value, then multiply by 100, round, and save)
+Debit type: Select
+Debit account: Select (options depend on the above)
+Credit type: Select
+Credit account: Select (options depend on the above)
+
+Prepopulated account types (none can be added):
+Prepopulated accounts are under each type (can add new accounts, keep sorted)
+
+Assets (+)
+  Checking
+  Investments
+  Savings
+  Wallet
+
+Expenses (+)
+  Communications
+  Donations
+  Entertainment
+  Groceries
+  Rent
+  Transportation
+  Utilities
+
+Liabilities (-)
+  Credit Card
+  Student Loans
+
+Income (-)
+  Gigs
+  Interest
+  Salary
+
+Equity (-)
+  Opening Balances
